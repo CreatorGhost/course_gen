@@ -24,8 +24,8 @@ These agents are orchestrated using LangGraph, a framework for building complex 
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
-cd course-generation-system
+git clone https://github.com/CreatorGhost/course_gen
+cd course_gen
 ```
 
 2. Install the required dependencies:
@@ -132,4 +132,4 @@ The system is built with:
 
 - For production use, you would need to implement more robust error handling and logging
 - Consider implementing caching to reduce API calls and improve performance
-- The system currently uses GPT-3.5-Turbo, but can be configured to use other models
+- The system currently uses GPT-4o, but can be configured to use other models
