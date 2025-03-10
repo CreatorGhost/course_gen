@@ -8,7 +8,7 @@ logger = setup_logger("structure_agent")
 class StructureAgent(BaseAgent):
     """Agent responsible for organizing content into a logical course structure."""
     
-    def __init__(self, model_name: str = "gpt-3.5-turbo", temperature: float = 0.4):
+    def __init__(self, model_name: str = "gpt-4o", temperature: float = 0.4):
         """Initialize the structure agent."""
         system_prompt = """
         You are a Structure Agent responsible for organizing educational content into a logical and effective course structure.

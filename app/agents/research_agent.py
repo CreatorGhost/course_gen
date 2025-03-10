@@ -9,7 +9,7 @@ logger = setup_logger("research_agent")
 class ResearchAgent(BaseAgent):
     """Agent responsible for researching content from the web."""
     
-    def __init__(self, model_name: str = "gpt-3.5-turbo", temperature: float = 0.5):
+    def __init__(self, model_name: str = "gpt-4o", temperature: float = 0.5):
         """Initialize the research agent."""
         system_prompt = """
         You are a Research Agent responsible for gathering accurate and relevant information from the web.

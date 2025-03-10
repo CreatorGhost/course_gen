@@ -4,7 +4,7 @@ from app.agents.base_agent import BaseAgent
 class ContentAgent(BaseAgent):
     """Agent responsible for generating detailed content for each module and lesson."""
     
-    def __init__(self, model_name: str = "gpt-3.5-turbo", temperature: float = 0.5):
+    def __init__(self, model_name: str = "gpt-4o", temperature: float = 0.5):
         """Initialize the content agent."""
         system_prompt = """
         You are a Content Agent responsible for creating detailed educational content for courses.

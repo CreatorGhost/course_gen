@@ -132,4 +132,4 @@ The system is built with:
 
 - For production use, you would need to implement more robust error handling and logging
 - Consider implementing caching to reduce API calls and improve performance
-- The system currently uses GPT-3.5-Turbo, but can be configured to use other models
+- The system currently uses gpt-4o, but can be configured to use other models

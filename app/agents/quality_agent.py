@@ -5,7 +5,7 @@ from app.models.course import CourseResponse, Module, Lesson
 class QualityAgent(BaseAgent):
     """Agent responsible for reviewing and refining course content."""
     
-    def __init__(self, model_name: str = "gpt-3.5-turbo", temperature: float = 0.3):
+    def __init__(self, model_name: str = "gpt-4o", temperature: float = 0.3):
         """Initialize the quality agent."""
         system_prompt = """
         You are a Quality Agent responsible for reviewing and refining educational course content.
